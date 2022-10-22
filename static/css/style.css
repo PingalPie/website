@@ -4,8 +4,9 @@ body{
     border: 1px solid white;
     padding: 10px;
 }
-center{
-	align: center;
+.center{
+	width: 100%;
+	text-align: center;
 }
 nav a{
     padding: 5px;
