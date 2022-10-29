@@ -1,8 +1,34 @@
+@font-face {
+    font-family: "Kingthings Foundation";
+    src: url(../fonts/Kingthings-Foundation.ttf);
+}
+
 body{
     max-width: 900px;
     margin: auto;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     padding: 10px;
+}
+.bigabold{
+    font-size: 300%;
+}
+header{
+    padding: 10px;
+    font-family: "Kingthings Foundation";
+}
+header span{
+    color: rgb(255, 113, 255);
+}
+aside{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    width: fit-content;
+    max-width: 350px;
+    text-align: center;
+}
+hr{
+    color: white;
 }
 #back{
     max-width: 900px;
@@ -14,5 +40,4 @@ body{
 }
 nav a{
     padding: 5px;
-
 }

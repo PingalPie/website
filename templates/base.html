@@ -11,21 +11,25 @@
   <link rel="icon" type="image/png" href="/images/favicon.ico">
 </head>
 <body>
-  <header><img id="back" src="/images/back.jpg"></header>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
+  <header class="center"><div class="bigabold">Jai Shree <span>Krishna</span></div></header>
+  <nav class="center">
+    <a href="/">Home</a>|
+    <a href="/blog">Blog</a>|
+    <a href="/about">About</a>|
+    <a href="/contact">Contact</a>|
     <a href="/lists">Lists</a>
   </nav>
   <hr>
-  <section class="section">
-    <div class="container">
-      {% block content %} {% endblock %}
-    </div>
-  </section>
+  <main>
+    {% block content %} {% endblock %}
+  </main>
+  <aside>
+    <blockquote>
+          ❝ The most precious thing we have is time. ❞
+        </blockquote>
+  </aside>
   <hr>
+  
   <div class="center">
       <a href="https://landchad.net" target="_blank"><img src="/images/link-buttons/landchad.gif" target="_blank" alt="landchad.net"></a>
       <a href="https://sadgrl.online/" target="_blank"><img src="/images/link-buttons/sadgrl.gif" alt="sadgrl.online"></a>
