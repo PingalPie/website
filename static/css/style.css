@@ -4,6 +4,10 @@ body{
     border: 1px solid white;
     padding: 10px;
 }
+#back{
+    max-width: 900px;
+    max-height: 200px;
+}
 .center{
 	width: 100%;
 	text-align: center;
