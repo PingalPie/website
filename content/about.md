@@ -1,4 +1,4 @@
 +++
-title = "About me"
+title = "About myself"
 +++
-# I'm a coder/gamer/student
+I am PingalPie, I live somewhere in India. I am a student by profession.

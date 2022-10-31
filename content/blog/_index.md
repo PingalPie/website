@@ -1,7 +1,7 @@
 +++
-title = "List of blog posts"
-sort_by = "date"
+title = "Blog posts"
 template = "blog.html"
+sort_by = "date"
 page_template = "page.html"
 +++
 

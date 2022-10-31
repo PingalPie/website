@@ -2,7 +2,9 @@
     font-family: "Kingthings Foundation";
     src: url(../fonts/Kingthings-Foundation.ttf);
 }
-
+blockquote {
+    font-style: italic;
+}
 body{
     max-width: 900px;
     margin: auto;
@@ -46,9 +48,10 @@ hr{
 	text-align: center;
 }
 nav{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 nav a{
+    font-size: 17px;
     padding: 5px;
     text-decoration: none;
 }
