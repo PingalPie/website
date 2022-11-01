@@ -1,5 +1,6 @@
 +++
 tilte = "Contact"
+page_template = "page.html"
 +++
 
 # Here is how you can reach me
