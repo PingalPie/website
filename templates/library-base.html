@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" conten="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% if section.title %}
+    <title>{{ section.title }}</title>
+    {% elif page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>Welcome to my site</title>
+    {% endif %}
+    <link href="/css/library.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+  </head>
+  <body>
+    <header class="center"><div class="bigabold">Welcome to <span>Library</span></div></header>
+    <nav class="center">
+      <a href="/">Home</a>|
+      <a href="/blog">Blog</a>|
+      <a href="/diary">Diary</a>|
+      <a href="/about">About</a>|
+      <a href="/contact">Contact</a>|
+      <a href="/library">Library</a>
+    </nav>
+    <hr>
+    <main>
+      {% block content %} {% endblock %}
+    </main>
+    <hr>      
+    <div class="center">
+      <a href="https://sadgrl.online/" target="_blank"><img src="/images/link-buttons/sadgrl.gif" alt="sadgrl.online"></a>
+      <a href="https://nuange.neocities.org/" target="_blank"><img src="/images/link-buttons/nuange.gif" alt="nuange.neocities.org"></a>
+    </div>
+    <footer class="center">  Thanks for coming to my boring website. I'm trying to make it better.</footer>
+  </body>
+</html>
+
