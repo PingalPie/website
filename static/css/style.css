@@ -43,6 +43,10 @@ hr{
     max-width: 900px;
     max-height: 200px;
 }
+#cwh{
+    color: rgb(216 180 254);
+    text-shadow: 2px 2px rgb(216 180 254);
+}
 .center{
 	width: 100%;
 	text-align: center;
