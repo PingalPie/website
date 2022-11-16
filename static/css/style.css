@@ -2,6 +2,18 @@
     font-family: "Kingthings Foundation";
     src: url(../fonts/Kingthings-Foundation.ttf);
 }
+table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+table th{
+    background-color: purple;
+    color: white;
+}
+tr, th, td{
+    border: 1px solid black;
+    padding: 0.3em;
+}
 blockquote {
     font-style: italic;
 }
@@ -36,6 +48,11 @@ aside{
     max-width: 350px;
     text-align: center;
 }
+article {
+    width: fit-content;
+    text-align: center;
+    padding: 0.5em;
+}
 hr{
     color: white;
 }
@@ -48,8 +65,8 @@ hr{
     text-shadow: 2px 2px rgb(216 180 254);
 }
 .center{
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 nav{
     margin-bottom: 15px;
