@@ -7,5 +7,3 @@ page_template = "page.html"
 
 - Discord - 『PingalツPie』#6964
 - Github - [PingalPie](https://github.com/pingalpie)
-- Telegram - @PingalPie
-
