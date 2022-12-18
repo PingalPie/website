@@ -8,7 +8,7 @@ page_template = "page.html"
 - [Bugswriter](https://bugswriter.com)
 - [Landchad](https://landchad.net)
 - [Based Cooking](https://based.cooking)
-- [Anime Girls Holding Programming Books](https://anime-girls-holding-programming-books.netlify.app/)
+- [Goal Kicker](https://goalkicker.com)
 - [The Useless Web](https://theuselessweb.com)
 - [pwnwriter's palace](https://pwnwriter.xyz)
 - [Antilinks](https://thecashewtrader.gitlab.io/braindump/antilinks)
