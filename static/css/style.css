@@ -24,7 +24,10 @@ blockquote {
     font-style: italic;
 }
 a {
-    color: #9565C3;
+    color: #2f92ff;
+}
+a:visited {
+    color: #2f92ff;
 }
 body{
     border: 1px solid white;
