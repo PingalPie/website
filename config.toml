@@ -1,11 +1,11 @@
 title = "PingalPie's site"
 description = "This is website of PingalPie"
 default_language = "en"
-base_url = "https://pingalpie.vercel.app"
+base_url = "https://pingalpie.tildevarsh.in"
 compile_sass = false
 build_search_index = false
 
-[markdown]	    
+[markdown]
 highlight_code = true
 render_emoji = true
 
