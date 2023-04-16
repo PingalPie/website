@@ -17,6 +17,8 @@
   <link rel="icon" type="image/png" href="/images/favicon.ico">
 </head>
 <body>
+	<div id="body-flex-container">
+		<div class="body-flex-item" id="main">
   <header class="center"><div class="bigabold">Jai Shree <span>Krishna</span></div></header>
   <nav class="center">
     <a class="magicword" data-value="Home" href="/">Home</a>|
@@ -29,16 +31,6 @@
   <main>
     {% block content %} {% endblock %}
   </main>
-  <aside>
-    <section>
-      <img class="grunge" src="/images/avatar.jpg">
-      <img class="grunge" src="/images/favicon.ico">
-      <img class="grunge" src="/images/avatar-cat.jpg">
-    </section>
-    <blockquote>
-          ❝ The most precious thing we have is time. ❞
-        </blockquote>
-  </aside>
   <hr>
   <br>
   <div class="center">
@@ -46,8 +38,22 @@
     <a href="https://femboy.hu" target="_blank"><img src="/images/link-buttons/femboy.png"></a>
     <a href="https://sadgrl.online/" target="_blank"><img src="/images/link-buttons/sadgrl.gif" alt="sadgrl.online"></a>
     <a href="https://nuange.neocities.org/" target="_blank"><img src="/images/link-buttons/nuange.gif" alt="nuange.neocities.org"></a>
-    <a href="https://tildevarsh.in" data-value="~varsh" target="_blank">~varsh</a>
-  </div>
+    <a href="https://tildevarsh.in" class="magicword" data-value="~varsh" target="_blank">~varsh</a>
   <footer class="center">  Thanks for coming to my boring website. I'm trying to make it better.</footer>
+  </div>
+		</div>
+		<div class="body-flex-item" id="aside">
+<div class="screen">
+  <div class="screen-image"></div>
+  <div class="screen-overlay"></div>
+  <div class="screen-content">
+    <i class="screen-icon fa-brands fa-codepen"></i>
+    <div class="screen-user">
+      <span class="name magicword" data-value="PingalPie">PingalPie</span>
+    </div>
+  </div>
+</div>
+ 	</div>
+	</div>
 </body>
 </html>

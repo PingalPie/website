@@ -3,7 +3,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let interval = null;
 
 document.addEventListener('DOMContentLoaded', (event) => {
-let query = Array.from(document.querySelectorAll("a"));
+let query = Array.from(document.querySelectorAll(".magicword"));
 
 for (que in query){
 
