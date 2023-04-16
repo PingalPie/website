@@ -13,17 +13,17 @@
   <title>Welcome to my site</title>
   {% endif %}
   <link href="/css/style.css" rel="stylesheet"/>
+  <script src="/js/main.js"></script>
   <link rel="icon" type="image/png" href="/images/favicon.ico">
 </head>
 <body>
   <header class="center"><div class="bigabold">Jai Shree <span>Krishna</span></div></header>
   <nav class="center">
-    <a href="/">Home</a>|
-    <a href="/blog">Blog</a>|
-    <a href="/about">About</a>|
-    <a href="/lists">Lists</a>|
-    <a href="/homies">Homies</a>|
-    <a href="/contact">Contact</a>
+    <a class="magicword" data-value="Home" href="/">Home</a>|
+    <a class="magicword" data-value="Blog" href="https://pingalpie.tildevarsh.in">Blog</a>|
+    <a class="magicword" data-value="About" href="/about">About</a>|
+    <a class="magicword" data-value="Homies" href="/homies">Homies</a>|
+    <a class="magicword" data-value="Contact" href="/contact">Contact</a>
   </nav>
   <hr>
   <main>
@@ -44,10 +44,9 @@
   <div class="center">
     <img src="/images/link-buttons/pingalpie.jpg">
     <a href="https://femboy.hu" target="_blank"><img src="/images/link-buttons/femboy.png"></a>
-    <a href="https://landchad.net" target="_blank"><img src="/images/link-buttons/landchad.gif"></a>
     <a href="https://sadgrl.online/" target="_blank"><img src="/images/link-buttons/sadgrl.gif" alt="sadgrl.online"></a>
     <a href="https://nuange.neocities.org/" target="_blank"><img src="/images/link-buttons/nuange.gif" alt="nuange.neocities.org"></a>
-    <a href="https://tildevarsh.in" target="_blank">~varsh</a>
+    <a href="https://tildevarsh.in" data-value="~varsh" target="_blank">~varsh</a>
   </div>
   <footer class="center">  Thanks for coming to my boring website. I'm trying to make it better.</footer>
 </body>

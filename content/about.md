@@ -3,4 +3,4 @@ title = "About myself"
 page_template = "page.html"
 +++
 
-I am PingalPie, I live somewhere in India. I am a student by profession.
+Hi, I am a linux enthusiastic, python developer, DevOps Engineer, web developer. All at the same time.
