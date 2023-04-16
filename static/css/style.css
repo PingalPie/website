@@ -11,8 +11,9 @@
 	src: url(../fonts/rajdhani.ttf);
 }
 ::selection {
-  text-shadow: 0 0 12px #e0c7eb;
-  color: #e0c7eb;
+  /* text-shadow: 0 0 12px #e0c7eb; */
+  text-shadow: 0 0 12px magenta;
+  color: magenta;
 }
 
 /* Blob */
@@ -25,7 +26,7 @@
   top: 50%;
   translate: -50% -50%;
   border-radius: 50%;
-  background: linear-gradient(to right, aquamarine, mediumpurple);
+  background: linear-gradient(to right, aquamarine, lightyellow);
   animation: rotate 20s infinite;
   opacity: 0.5;
   filter: blur(100px);
@@ -370,7 +371,7 @@ nav a{
         font-size: 90%;
         padding: 1%;
     }
-    aside {
+    #aside, #blob {
         display: none;
     }
 }
