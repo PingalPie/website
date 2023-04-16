@@ -290,7 +290,7 @@ a:visited {
 .handwritten {
 	font-family: "handrawn";
 }
-p, footer {
+p, footer, li {
 	font-size: 1.34rem;
 	font-family: "handrawn";
 }
