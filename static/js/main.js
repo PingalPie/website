@@ -1,3 +1,20 @@
+// Blob Effect
+
+document.addEventListener('DOMContentLoaded', (event) => {
+const blob = document.getElementById("blob");
+
+window.onpointermove = event => {
+  const { clientX, clientY } = event;
+
+  blob.animate({
+    left: `${clientX}px`,
+    top: `${clientY}px`
+  }, { duration: 3000, fill: "forwards" });
+}
+})
+
+// Text Effect
+
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
