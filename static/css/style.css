@@ -11,9 +11,21 @@
 	src: url(../fonts/rajdhani.ttf);
 }
 ::selection {
-  /* text-shadow: 0 0 12px #e0c7eb; */
-  text-shadow: 0 0 12px magenta;
+  text-shadow: 0 0 12px #e0c7eb;
   color: magenta;
+}
+h1 {
+  font-family: 'Kingthings Foundation';
+}
+#grunge > img{
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 1.2rem;
+  padding: 5px;
+}
+#grunge{
+  display: flex;
+  flex-direction: row;
 }
 
 /* Blob */
@@ -48,6 +60,9 @@
 ------------
 * {
   box-sizing: border-box;
+}
+body{
+    cursor: url(../images/cursor.png), default;
 }
 
 /* body { */
@@ -373,5 +388,8 @@ nav a{
     }
     #aside, #blob {
         display: none;
+    }
+    .grunge {
+      display: none;
     }
 }

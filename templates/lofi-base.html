@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lofi Music for studying, working and relaxing">
+    <meta author"PingalPie">
+    {% if section.title %}
+    <title>{{ section.title }}</title>
+    {% elif page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>Lofi Music by PingalPie</title>
+    {% endif %}
+    <link href="/css/lofi.css" rel="stylesheet">
+    <script src="/js/lofi.js"></script>
+    <link rel="icon" type="image/png" href="/images/lofi.ico">
+  </head>
+  <body>
+    <header class="center">
+      <div class="bigabold magicword">Lofi Music</div>
+      <nav class="center">
+	<a class="magicword" data-value="Home" href="/">Home</a>
+	<a class="magicword" data-value="About" href="/about">About</a>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      {% block content %} {% endblock %}
+  </body>
+</html>

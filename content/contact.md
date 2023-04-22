@@ -10,3 +10,4 @@ page_template = "page.html"
 - Telegram - [@PingalPie](https://t.me/pingalpie)
 - Hashnode - [@PingalPie](https://pingalpie.hashnode.dev)
 - Linkedin - [Yash Bajaj](https://www.linkedin.com/in/yash-bajaj-788368234/)
+- Instagram - [@PingalPie](https://Instagram.com/pingalpie)

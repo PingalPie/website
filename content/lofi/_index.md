@@ -1,0 +1,3 @@
++++
+template = "lofi-index.html"
++++
