@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Kingthings Foundation";
-    src: url(../fonts/Kingthings-Foundation.ttf);
+   font-family: "Kingthings Foundation";
+   src: url(../fonts/Kingthings-Foundation.ttf);
 }
 @font-face {
 	font-family: "handrawn";
@@ -13,6 +13,9 @@
 ::selection {
   text-shadow: 0 0 12px #e0c7eb;
   color: magenta;
+}
+h1, a, p, footer, header{
+  color: white;
 }
 h1 {
   font-family: 'Kingthings Foundation';
@@ -31,7 +34,7 @@ h1 {
 /* Blob */
 #blob {
   background-color: white;
-  height: 34vmax;
+  height: 20em;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
@@ -62,6 +65,7 @@ h1 {
   box-sizing: border-box;
 }
 body{
+  background-color: grey;
     cursor: url(../images/cursor.png), default;
 }
 
@@ -314,12 +318,12 @@ body{
 .magicword {
 }
 a {
-    color: #2f92ff;
+    color: aquamarine;
     font-size: 1.2rem;
     font-family: "rajdhani", monospace;
 }
 a:visited {
-    color: #2f92ff;
+    color: aquamarine;
 }
 .handwritten {
 	font-family: "handrawn";
