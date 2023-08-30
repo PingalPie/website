@@ -29,6 +29,7 @@ h1 {
 #grunge{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; 
 }
 
 /* Blob */
@@ -218,7 +219,7 @@ body{
   position: relative;
   z-index: 3;
   margin: 1rem;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
   border: 1px solid rgb(var(--primary-rgb) / 50%);
   border-radius: 0.6rem;
 }
@@ -265,6 +266,9 @@ body{
   color: white;
   text-align: center;
   text-transform: uppercase;
+}
+.screen > .screen-content > .screen-user > #grunge {
+    padding-left: 1rem;
 }
 
 .screen > .screen-content > .screen-user > .name {
@@ -393,7 +397,21 @@ nav a{
     #aside, #blob {
         display: none;
     }
-    .grunge {
+    #grunge {
       display: none;
     }
+}
+
+
+------ Logo
+#logo{
+    position: relative;
+    width: 300px;
+    aspect-ratio: 1000 / 556;
+    user-select: none;
+}
+
+#logo > img{
+    width: 100%;
+    position: absolute;
 }
