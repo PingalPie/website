@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6, span, a, p, footer, header{
 h1 {
   font-family: 'Kingthings Foundation';
 }
+h2, h3, h4, h5, h6{
+    font-family: Mooli;
+}
 #grunge > img{
   max-width: 100px;
   max-height: 100px;
