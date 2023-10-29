@@ -79,6 +79,7 @@ body{
     scroll-behavior: smooth;
     background-image: linear-gradient(rgb(var(--color-base)/85%),rgb(var(--color-base)/85%)),var(--background-image);
     cursor: url(../images/cursor.png), default;
+    background-color: black;
 }
 
 /* body { */
