@@ -414,39 +414,28 @@ nav a{
     }
 }
 
-
------- Logo
-#logo{
-    position: relative;
-    width: 300px;
-    aspect-ratio: 1000 / 556;
-    user-select: none;
-}
-
-#logo > img{
-    width: 100%;
-    position: absolute;
-}
-
 /* DASHBOARD */
-#stats{
-    display: grid;
-}
-#stats > div{
-    display: flex;
+.stats{
+    /* display: flex; */
     background-color: grey;
-    /* opacity: 50%; */
     border-radius: 10px;
+    margin: 1rem;
 }
-#stats > div > *{
+.stats > *{
     padding: 10px;
 }
-#tech{
+
+#tech, #projects{
     display: grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
     padding-top: 5px;
 }
-#tech > li{
-    padding-left: 1rem;
+#tech > li, #projects > li{
+    margin-left: 1rem;
     list-style-type: none;
+}
+#projects > li{
+    border: 2px solid black;
+    padding: 1em;
+    border-radius: 10%;
 }
