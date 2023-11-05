@@ -447,6 +447,6 @@ nav a{
     padding-top: 5px;
 }
 #tech > li{
-    padding-left: 3px;
+    padding-left: 1rem;
     list-style-type: none;
 }
