@@ -90,6 +90,10 @@ body{
 /*   overflow: hidden; */
 /* } */
 
+#blob{
+	/* display: none; */
+}
+
 .screen {
   width: 400px;
   display: flex;
@@ -100,6 +104,7 @@ body{
   overflow: hidden;
   position: relative;
   z-index: 10;
+  /* display: none; */
 }
 
 .screen:after,
@@ -417,7 +422,7 @@ nav a{
 /* DASHBOARD */
 .stats{
     /* display: flex; */
-    background-color: grey;
+    background-color: #4a1f54;
     border-radius: 10px;
     margin: 1rem;
 }
@@ -426,16 +431,21 @@ nav a{
 }
 
 #tech, #projects{
-    display: grid;
-    grid-template-columns: repeat(3,minmax(0,1fr));
+    display: flex;
     padding-top: 5px;
+    flex-direction: inherit;
 }
 #tech > li, #projects > li{
     margin-left: 1rem;
     list-style-type: none;
 }
 #projects > li{
-    border: 2px solid black;
+    border: 2px solid pink;
     padding: 1em;
     border-radius: 10%;
+}
+@media ( min-width: 800px) {
+	#project{
+    		flex-wrap: wrap;
+	}
 }

@@ -4,6 +4,7 @@
 <h1 class="title">
   {{ page.title }}
 </h1>
-<p class="subtitle"><strong>{{ page.date }}</strong></p>
 {{ page.content | safe }}
+<br>
+<p class="subtitle">This post was written on <strong>{{ page.date }}</strong></p>
 {% endblock content %}
