@@ -1,7 +1,7 @@
 title = "PingalPie's site"
 description = "This is website of PingalPie"
 default_language = "en"
-base_url = "https://pingalpie.tildevarsh.in"
+base_url = "https://pingalpie.vercel.app"
 compile_sass = false
 build_search_index = false
 
