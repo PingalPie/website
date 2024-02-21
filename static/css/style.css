@@ -20,7 +20,7 @@
 }
 ::selection {
   text-shadow: 0 0 12px #e0c7eb;
-  color: magenta;
+  color: cyan;
 }
 h1, h2, h3, h4, h5, h6, span, a, p, footer, header{
   color: white;
@@ -56,13 +56,20 @@ ul{
   top: 50%;
   translate: -50% -50%;
   border-radius: 50%;
-  background: linear-gradient(to right, cyan, yellow);
+  background: linear-gradient(to right, aquamarine, mediumpurple);
   animation: rotate 20s infinite;
   opacity: 0.5;
   filter: blur(100px);
   z-index: -1;
 }
-
+@keyframes rotate{
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
 
 
 :root {
@@ -84,18 +91,6 @@ body{
     background-image: linear-gradient(rgb(var(--color-base)/85%),rgb(var(--color-base)/85%)),var(--background-image);
     cursor: url(../images/cursor.png), default;
     background-color: black;
-}
-
-/* body { */
-/*   height: 100vh; */
-/*   place-items: center; */
-/*   background-color: rgb(var(--background-rgb)); */
-/*   margin: 0rem; */
-/*   overflow: hidden; */
-/* } */
-
-#blob{
-	/* display: none; */
 }
 
 .screen {
@@ -383,7 +378,7 @@ header span{
     color: rgb(255, 113, 255);
 }
 a:hover {
-    color: #31283C;
+    color: azure;
 }
 
 article {
@@ -426,7 +421,7 @@ nav a{
 /* DASHBOARD */
 .stats{
     /* display: flex; */
-    background-color: #4a1f54;
+    background-color: #1d488f;
     border-radius: 10px;
     margin: 1rem;
 }
@@ -436,8 +431,9 @@ nav a{
 
 #tech, #projects{
     display: flex;
-    padding-top: 5px;
-    flex-direction: inherit;
+    margin: 1em;
+    padding: 5px;
+    flex-wrap: wrap; 
 }
 #tech > li, #projects > li{
     margin-left: 1rem;
@@ -445,11 +441,15 @@ nav a{
 }
 #projects > li{
     border: 2px solid pink;
+    margin: 1em;
     padding: 1em;
-    border-radius: 10%;
 }
 @media ( min-width: 800px) {
 	#project{
     		flex-wrap: wrap;
 	}
+}
+
+#easter-egg{
+  text-decoration: underline dotted lime;
 }

@@ -19,7 +19,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
 
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
 let query = Array.from(document.querySelectorAll(".magicword"));
 
 for (que in query){
@@ -49,4 +49,13 @@ query[que].onmouseover = event => {
   }, 30);
 }
 }
+})
+
+// Easter egg
+document.addEventListener('DOMContentLoaded', () => {
+  const text = document.getElementById('easter-egg');
+  
+  text.onmouseover = _ => {
+    window.location.href = "/imagemagic"
+  }
 })

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Mooli";
+    src: url(../fonts/Mooli.ttf);
+}
+body{
+  background-color: black;
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+}
+#nav{
+  text-align: center;
+  margin: 1rem;
+}
+.magicword {
+  text-decoration: none;
+  position: relative; 
+  margin: 1em;
+  color: cyan;
+  z-index: 1000;
+  font-family: Mooli;
+}
+a:hover{
+  color: azure;
+}
+p {
+  color: azure;
+}
+.image {
+  width: 70vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 5px;
+}
+.image[data-status="inactive"] {
+  display: none;
+}
+.image[data-status="active"] {
+  display: block;
+}
+#warning{
+  color: white;
+  display: none;
+}
+a{
+  color: cyan; 
+}
+@media(max-width: 700px) {
+  main{
+    display: none;
+  }
+  #warning{
+    display: block;
+  }
+
+}
