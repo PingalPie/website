@@ -450,6 +450,7 @@ nav a{
 	}
 }
 
-#easter-egg{
+.easter-egg{
+  display: inline;
   text-decoration: underline dotted lime;
 }

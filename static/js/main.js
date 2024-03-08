@@ -53,9 +53,13 @@ query[que].onmouseover = event => {
 
 // Easter egg
 document.addEventListener('DOMContentLoaded', () => {
-  const text = document.getElementById('easter-egg');
+  const elements = document.getElementsByClassName('easter-egg');
   
-  text.onmouseover = _ => {
-    window.location.href = "/imagemagic"
+  i = 0
+  while (i < elements.length) { 
+    elements[i].onmouseover = _ => {
+      window.location.href = "/imagemagic"
+    }
+    i++
   }
 })
