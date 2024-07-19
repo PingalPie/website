@@ -439,10 +439,17 @@ nav a{
     margin-left: 1rem;
     list-style-type: none;
 }
-#projects > li{
+.project-title {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+.project {
     border: 2px solid pink;
     margin: 1em;
     padding: 1em;
+    width: 100%;
 }
 @media ( min-width: 800px) {
 	#project{
