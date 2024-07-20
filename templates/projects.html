@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="title">
+  {{ page.title | safe }}
+</h1>
+<div id="page-blog">
+{{ page.content | safe }}
+</div>
+{% if page.date %}
+<br>
+<p class="subtitle">This project was made on <strong>{{ page.date | safe }}</strong></p>
+{% endif %}
+
+{% endblock content %}
