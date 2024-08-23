@@ -22,7 +22,7 @@
   text-shadow: 0 0 12px #e0c7eb;
   color: cyan;
 }
-h1, h2, h3, h4, h5, h6, span, a, p, footer, header{
+h1, h2, h3, h4, h5, h6, span, a, p, footer, header, legend{
   color: white;
 }
 h1 {
@@ -424,6 +424,7 @@ nav a{
     background-color: #1d488f;
     border-radius: 10px;
     margin: 1rem;
+    padding: 1em;
 }
 .stats > *{
     padding: 10px;
@@ -439,14 +440,14 @@ nav a{
     margin-left: 1rem;
     list-style-type: none;
 }
-.project-title {
+.endcreds, .project-title {
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: space-between;
 }
 .project {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     margin: 1em;
     padding: 1em;
     width: 100%;
