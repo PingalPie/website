@@ -462,3 +462,8 @@ nav a{
   display: inline;
   text-decoration: underline dotted lime;
 }
+#notes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
