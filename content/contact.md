@@ -5,6 +5,7 @@ page_template = "page.html"
 
 I don't use other social media other than these.
 
+- Email - [PingalPie](mailto:pingalpie@proton.me)
 - Instagram - [PingalPie](https://instagram.com/PingalPie)
 - Github - [PingalPie](https://github.com/PingalPie)
 - Discord - @realpingalpie
