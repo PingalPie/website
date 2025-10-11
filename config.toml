@@ -1,0 +1,13 @@
+title = "PingalPie's site"
+description = "Website of PingalPie"
+default_language = "en"
+base_url = "https://pingalpie.vercel.app"
+compile_sass = false
+build_search_index = false
+author = "PingalPie"
+
+[markdown]
+highlight_code = true
+render_emoji = true
+
+[extra]

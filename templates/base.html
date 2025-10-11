@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hey, this is PingalPie's homeplace">
+  <meta author="PingalPie">
+  {% if section.title %}
+  <title>{{ section.title }}</title>
+  {% elif page.title %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>Welcome to my site</title>
+  {% endif %}
+  <link href="/css/style.css" rel="stylesheet"/>
+  <script src="/js/main.js"></script>
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+</head>
+<body>
+<div id="body-flex-container">
+  <div class="body-flex-item" id="main">
+  <header class="center"><div class="bigabold">Radhe <span>Radhe</span></div></header>
+  <nav class="center">
+    <a class="magicword" data-value="Home" href="/">Home</a><p style="display: inline;">|</p>
+    <a class="magicword" data-value="Blog" href="/blog">Blog</a><p style="display: inline;">|</p>
+    <a class="magicword" data-value="About" href="/about">About</a>
+  </nav>
+  <hr>
+  <main>
+    {% block content %} {% endblock %}
+  </main>
+  <hr>
+  <br>
+    <footer class="center">  Thanks for coming to my boring website. I'm trying to make it better.</footer>
+  </div>
+</div>
+</body>
+</html>
