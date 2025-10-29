@@ -46,21 +46,11 @@ h6 {
 ul {
   color: white;
 }
-#grunge > img {
-  max-width: 100px;
-  max-height: 100px;
-  border-radius: 1.2rem;
-  padding: 5px;
-}
-#grunge {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 
 :root {
   --blue-rgb: 33 150 243;
   --primary-rgb: var(--blue-rgb);
+  cursor: url(../images/cursor.png), default;
 
   --blob-color-1: rgb(var(--blue-rgb));
   --blob-color-2: dodgerblue;
@@ -77,12 +67,9 @@ body {
   background-image:
     linear-gradient(rgb(var(--color-base) / 85%), rgb(var(--color-base) / 85%)),
     var(--background-image);
-  cursor: url(../images/cursor.png), default;
   background-color: black;
 }
 
-.magicword {
-}
 a {
   color: aquamarine;
   font-size: 1.2rem;
@@ -94,7 +81,7 @@ a:visited {
 p,
 footer,
 li {
-  font-size: 1rem;
+  font-size: 1.16rem;
   font-family: oswald;
 }
 #body-flex-container {
