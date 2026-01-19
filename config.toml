@@ -7,7 +7,7 @@ build_search_index = false
 author = "PingalPie"
 
 [markdown]
-highlight_code = true
+# highlight_code = true
 render_emoji = true
 
 [extra]

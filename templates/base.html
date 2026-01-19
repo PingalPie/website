@@ -19,17 +19,20 @@
 <body>
 <div id="body-flex-container">
   <div class="body-flex-item" id="main">
-  <header class="center"><div class="bigabold">Radhe <span>Radhe</span></div></header>
-  <nav class="center">
-    <a class="magicword" data-value="Home" href="/">Home</a><p style="display: inline;">|</p>
-    <a class="magicword" data-value="Blog" href="/blog">Blog</a>
-  </nav>
-  <hr>
-  <main>
-    {% block content %} {% endblock %}
-  </main>
-  <hr>
-  <br>
+    <header class="center"><div class="bigabold">Radhe <span>Radhe</span></div></header>
+    <nav class="center">
+      <a class="magicword" data-value="Home" href="/">Home</a><p style="display: inline;">|</p>
+      <a class="magicword" data-value="Blog" href="/blog">Blog</a>
+    </nav>
+    <hr>
+    <main>
+      {% block content %} {% endblock %}
+    </main>
+    <hr>
+    <br>
+  </div>
+  <div class="body-flex-item" id="aside">
+    <canvas id="canvas" width="500" height="500"></canvas>
   </div>
 </div>
 </body>
