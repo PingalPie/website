@@ -89,12 +89,14 @@ li {
 #body-flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
 }
 #main {
   /* border: 1px solid grey; */
     /* max-width: 900px; */
     max-width: var(--max-main-width);
+    width: var(--max-main-width);
     padding: 10px;
 }
 #aside {
@@ -145,6 +147,9 @@ nav a {
   body {
     font-size: 90%;
     padding: 1%;
+  }
+  canvas {
+    display: none;
   }
 }
 img {
