@@ -53,8 +53,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	ctx.stroke();
 	ctx.clip();
 	ctx.fillStyle = stroke;
-	ctx.rotate(new Date().getTime() * .0001 % (2 * Math.PI));
-	for (var i = 0; i < 3; i++) {
+	ctx.rotate(new Date().getTime() * .0005 % (2 * Math.PI));
+	for (var i = 0; i < 20; i++) {
 	    ctx.beginPath();
 	    ctx.save();
 	    ctx.scale(1, ball_h / ball_w);
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	    ctx.beginPath();
 	    ctx.arc(ball_x, ball_y, ball_r, 0, 2 * Math.PI);
 	    ctx.fill();
-	    ctx.rotate(Math.PI / 3);
+	    ctx.rotate(Math.PI / 18);
 	}
 	ctx.restore();
     }
