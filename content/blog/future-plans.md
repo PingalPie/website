@@ -24,7 +24,6 @@ So, here are the plans
   like 1. Galen Colin
        2. tsoding (Alexey Zozin)
 
-<br>
 Anyway plans for this week
 1. Complete the chemistry notes for solutions chapter
 2. Start reading chapters for english exam ( I'm in class 12 )
