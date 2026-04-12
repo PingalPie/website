@@ -86,3 +86,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     render();
 })
+document.addEventListener("DOMContentLoaded", () => {
+    let tag = document.getElementById("current-time");
+    tag.style = "display: inline;";
+    function updateClock() {
+	tag.innerText = Date().toString();	
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+})
