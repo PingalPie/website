@@ -88,6 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 document.addEventListener("DOMContentLoaded", () => {
     let tag = document.getElementById("current-time");
+    if (tag == null) {
+	return
+    }
     tag.style = "display: inline;";
     function updateClock() {
 	tag.innerText = Date().toString();	
