@@ -27,13 +27,11 @@ p,
 footer,
 header,
 li,
+ul,
 legend {
     color: white;
 }
-h1 {
-  font-family: Mooli;
-}
-.title,
+h1,
 h2,
 h3,
 h4,
@@ -41,10 +39,6 @@ h5,
 h6 {
   font-family: Mooli;
 }
-ul {
-  color: white;
-}
-
 :root {
     --blue-rgb: 33 150 243;
     --max-main-width: 900px;
@@ -79,7 +73,8 @@ a:visited {
 }
 p,
 footer,
-li {
+li,
+.sub-heading {
     font-size: 1.16rem;
     font-family: oswald;
 }
