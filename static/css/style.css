@@ -3,17 +3,14 @@
   src: url(../fonts/Kingthings-Foundation.ttf);
 }
 @font-face {
-  font-family: "Mooli";
+  font-family: Mooli;
   src: url(../fonts/Mooli.ttf);
 }
 @font-face {
   font-family: oswald;
   src: url(../fonts/oswald.ttf);
 }
-@font-face {
-  font-family: "rajdhani";
-  src: url(../fonts/rajdhani.ttf);
-}
+
 ::selection {
   text-shadow: 0 0 12px #e0c7eb;
   color: cyan;
@@ -34,7 +31,7 @@ legend {
     color: white;
 }
 h1 {
-  font-family: "Kingthings Foundation";
+  font-family: Mooli;
 }
 .title,
 h2,
@@ -75,7 +72,7 @@ body {
 a {
   color: aquamarine;
   font-size: 1.2rem;
-  font-family: "rajdhani", monospace;
+  font-family: oswald, monospace;
 }
 a:visited {
   color: aquamarine;
