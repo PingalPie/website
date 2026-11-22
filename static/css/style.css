@@ -84,6 +84,12 @@ li,
   /* justify-content: space-between; */
   justify-content: flex-end;
 }
+@media (max-width: 1600px) {
+    #body-flex-container {
+	justify-content: center !important;
+    }
+}
+
 #main {
   /* border: 1px solid grey; */
     /* max-width: 900px; */
